@@ -28,7 +28,8 @@ def TirarRepetidosMongo():
 
 def findAllCompanies():
     # driver.get('http://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/empresas-listadas.htm')
-    cursor = mongoConection()
+    conexão, mydb = mongoConnect.connect()
+    cursor = mydb['empresas_link_b3']
     arrayLinks = []
     arrayEmpresas = []
     subXpath= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Z','5']
@@ -52,44 +53,69 @@ def findAllCompanies():
 # linkBase na segunda pesquisa = http://bvmf.bmfbovespa.com.br/cias-listadas/empresas-listadas/
 def find_details_in_all_companies():
     url = ('http://bvmf.bmfbovespa.com.br/cias-listadas/empresas-listadas/')
-    cursor = mongoConection()
+    conexão, mydb = mongoConnect.connect()
+    cursor = mydb['empresas_link_b3']
     
     ConcLinks = TirarRepetidosMongo()
-    for i in range(0, 3):
+    for i in range(0, len(ConcLinks)):
         linkSplit = (ConcLinks[i])
         link = linkSplit.split('=')
         codigo = (link[1])
         ArrayTDs = []
         url = requests.get('http://bvmf.bmfbovespa.com.br/pt-br/mercados/acoes/empresas/ExecutaAcaoConsultaInfoEmp.asp?CodCVM='+str(codigo)+'&ViewDoc=1&AnoDoc=2019&VersaoDoc=1&NumSeqDoc=80335')
         pageContent = BeautifulSoup(url.content, 'lxml')                                  
-        # print(pageContent)
         for tbody in pageContent.findAll('div',{'class':'content active'}):
-            # print(tbody)
             arrayCodBolsa = []
             for codigoBolsa in tbody.findAll('a'):
                 conteudoCodigo = (codigoBolsa.text)
                 conteudoCodigo = conteudoCodigo.split('\\n')
                 arrayCodBolsa.append(conteudoCodigo)
-                
-            print('Códigos de Negociação: %s'%(arrayCodBolsa[1]))
             
+            print('Códigos de Negociação: %s'%(arrayCodBolsa[1]))
             for td in tbody.findAll('td'):
                 td = (td.text)
-                ArrayTDs.append(td)
-                # print('-=============================-') 
+                try:
+                    ArrayTDs.append(td)
+                except:
+                    print('Erro no append')
+                    ArrayTDs.append('False')
 
-        # quit()
         pInfos = [1, 5,11]
         for i in range(0,len(pInfos)):
+            
+            arrayNomePregao = []
+            arrayCNPJ = []
+            arraySite = []
+            
             if i == 0:
-                print('Nome de Pregão: %s'%(ArrayTDs[pInfos[i]]))
-               
+                nome = (ArrayTDs[pInfos[i]])
+                print('Nome de Pregão: %s'%nome)
+                if nome:
+                    arrayNomePregao.append(nome)
+                else:
+                    arrayNomePregao.append('False')
+
             elif i == 1:
-                print('CNPJ: %s'% (ArrayTDs[pInfos[i]]))
+                CNPJ = (ArrayTDs[pInfos[i]])
+                print('CNPJ: %s'% CNPJ)
+                if CNPJ:
+                    arrayCNPJ.append(CNPJ)
+                else:
+                    arrayCNPJ.append('False')
+
             elif i == 2:
-                print('Site: %s'%(ArrayTDs[pInfos[i]]))
+                site = (ArrayTDs[pInfos[i]])
+                print('Site: %s'% site)
+                if site:
+                    arraySite.append(site)
+                else:
+                    arraySite.append('False')
         
+        for x in range(0,len(arrayCNPJ)):
+            conc = str(arrayNomePregao[x])+' ; '+str(arrayCNPJ[x])+' ; '+str(arraySite[x])+' ; '+str(arrayCodBolsa[x])
+            print(conc)
         print('+===========')  
                 
 find_details_in_all_companies()
 # TirarRepetidosMongo()
+
