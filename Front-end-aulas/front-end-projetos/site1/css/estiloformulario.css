@@ -1,0 +1,49 @@
+body{
+  font: 100% normal arial, Helvetica, sans-serif;
+}
+.box{
+  margin: 0 auto;
+  width: 500px;
+  background: #dcdcdc;
+  position: relative;
+  top: 50px
+  border: 1px solid #000000;
+}
+.box h1{
+  color: #00000f;
+  font-size: 18px;
+  padding: 5px 0px 5px 0px;
+  border-bottom:1px solid #161712;
+  border-top:1px solid #161712;
+}
+.box label{
+  width:100%;
+  display: block;
+  border-top:1px solid #262626;
+  border-bottom:1px solid #161712;
+  padding:10px 0 10px 0;
+}
+.box label span {
+    display: block;
+    color:#000011;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+.box .input_text {
+    padding:2px 2px;
+    width:300px;
+    background:#ffffff;
+}
+.box .button{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:#808080;
+    border:0px;
+    position: relative;
+    top:10px;
+    left:280px;
+    width:100px;
+}

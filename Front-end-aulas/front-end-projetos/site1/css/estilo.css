@@ -1,0 +1,42 @@
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  color: blue;
+}
+p{
+  font-family: monospace;
+  text-align: justify;
+  padding: 10px 150px 50px 20px;
+  /*padding-top:
+  padding-right:
+  padding-botton:
+  padding-left:*/
+
+}
+body{
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+}
+figure{
+  background-color: #f2eded;
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin: 60;
+  text-align: center;
+  height: 150px;
+  /*width: 600px;*/
+}
+img{
+  height: 80%;
+  /*width: 80px;*/
+}
+figcaption{
+  margin-top: 10px;
+}
+ol{
+  list-style-type: upper-alpha;
+}
+ul{
+  list-style-type: circle;
+}

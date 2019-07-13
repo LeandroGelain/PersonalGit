@@ -1,0 +1,80 @@
+header{
+  position: relative;
+}
+
+.logo{
+  width:160;
+}
+.carrinhoimg{
+  height: 120;
+  position: absolute;
+  top: 0px;
+  right: 35px;
+}
+.carrinho{
+  font-size: 14px;
+  padding-right: 35px;
+  position: absolute;
+  top: 80px;
+  right: 0px;
+}
+
+.menu-nav{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.menu-nav ul li{
+  display: inline;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.menu-nav a{
+  color: #003366;
+}
+body{
+  color: #333333;
+}
+.container{
+  margin: 0 auto;
+  width: 940px;
+}
+.painel{
+  margin: 10px 0;
+  padding: 10px;
+  width: 445px
+}
+.painel ul{
+  padding: 10px;
+}
+.painel li{
+  display: inline-block;
+  vertical-align: top;
+  width:100px;
+  margin:2px;
+  padding-bottom: 5px;
+}
+.painel h2{
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.painel a{
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+}
+.painel img{
+  width: 90px;
+}
+.artigos{
+  float:left;
+  clear: left;
+  background-color: #f5dcdc;
+}
+.produtos{
+  float:right;
+  clear: right;
+  background-color: #dcdcf5;
+}

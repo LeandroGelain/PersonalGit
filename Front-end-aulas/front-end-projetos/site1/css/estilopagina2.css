@@ -1,0 +1,35 @@
+header{
+  position: relative;
+}
+.logo{
+  width:150;
+}
+.carrinho{
+  font-size: 14px;
+  text-align: right;
+  padding-right: 35px;
+  padding-top: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;  
+}
+.menu-nav{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.menu-nav ul li{
+  display: inline;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.menu-nav a{
+  color: #003366;
+}
+body{
+  color: #333333;
+}
+.container{
+  margin: 0 auto;
+  width: 940px;
+}
