@@ -1,3 +1,5 @@
+from typing import List
+
 class LayerListener(object):
      
     def receive(self, data):
@@ -59,93 +61,94 @@ class StringLayer():
 class ReverseLayer():
     top: LayerInterface
     bottom: LayerInterface
-    
-    try:
-        def __init__(self):
-            self.top = BaseLayerInterface()
-            self.bottom = BaseLayerInterface()
-    
-            def top_receive(data):
-                result = data[::-1]
-                self.bottom.fire_data(result)
-    
-            self.top.receive = top_receive
-    
-            def bottom_receive(data):
-                result = data[::-1]
-                self.top.fire_data(result)
-        
-            self.bottom.receive = bottom_receive
-    
-    except TypeError:
-        pass
 
-class CharLayer():
-    top: LayerInterface
-    bottom: LayerInterface
- 
     def __init__(self):
         self.top = BaseLayerInterface()
         self.bottom = BaseLayerInterface()
+
+        def top_receive(data):
+            result = data[::-1]
+            self.bottom.fire_data(result)
+
+        self.top.receive = top_receive
+
+        def bottom_receive(data):
+            result = data[::-1]
+            self.top.fire_data(result)
+    
+        self.bottom.receive = bottom_receive
+        
+class CharLayer():
+    top: LayerInterface
+    bottom: LayerInterface
+    def __init__(self):
+        self.top = BaseLayerInterface()
+        self.bottom = BaseLayerInterface()
+        
+        self.buffer = []
+        
+        def bottom_receive(data):
+           if data is None:
+                
+                self.bottom.fire_data(''.join(self.buffer))
+                self.buffer = []
+           else:
+                # print(data)
+                self.buffer.append(data)
+        self.bottom.receive = bottom_receive
  
         def top_receive(data):
             for c in data:
                 self.bottom.fire_data(c)
             self.bottom.fire_data(None)
            
- 
         self.top.receive = top_receive
- 
-        def bottom_receive(data):
-            result = data[::-1]
-            self.top.fire_data(result)
-       
-        self.bottom.receive = bottom_receive
 
+class Layer:
+    top = LayerInterface
+    bottom = LayerInterface
 
-def connect_layers(layer_top, layer_bottom):
-    layer_top.bottom.add_listener(layer_bottom.top)
-    layer_bottom.top.add_listener(layer_top.bottom)
-    
+    @classmethod
+    def connect_all(cls, *layers : List['Layer']):
+        for a, b in zip(layers[:-1], layers[1:]):
+            a.bottom.add_listener(b.top)
+            b.top.add_listener(a.bottom)
 
-def connect_ZZ(layer1,layer2):
-    layer1.bottom.add_listener(layer2.bottom)
-    layer2.bottom.add_listener(layer1.bottom)
+    @classmethod
+    def crossover(cls, a : 'Layer', b : 'Layer'):
+        a.bottom.add_listener(b.bottom)
+        b.bottom.add_listener(a.bottom)
 
 if __name__ == '__main__':
-    string_entrado = 'dado por cima'
+
+    a3 = StringLayer()
+    a2 = ReverseLayer()
+    a1 = CharLayer()
     
-    a_string_layer = StringLayer()
-    a_string_layer.top.add_listener(DebugLayerListener('A3 Top'))
-    a_string_layer.bottom.add_listener(DebugLayerListener('A3 Bottom'))
+    b3 = StringLayer()
+    b2 = ReverseLayer()
+    b1 = CharLayer()
     
-    a_reverse_layer = ReverseLayer()
-    a_reverse_layer.top.add_listener(DebugLayerListener('A2 Top'))
-    a_reverse_layer.bottom.add_listener(DebugLayerListener('A2 Bottom'))
+    a3.top.add_listener(DebugLayerListener('A3 Top'))
+    a3.bottom.add_listener(DebugLayerListener('A3 Bottom'))
+    b3.top.add_listener(DebugLayerListener('B3 Top'))
+    b3.bottom.add_listener(DebugLayerListener('B3 Bottom'))
     
-    a_char_layer = CharLayer()
-    a_char_layer.top.add_listener(DebugLayerListener('A1 Top'))
-    a_char_layer.bottom.add_listener(DebugLayerListener('A1 Bottom'))
+    a2.top.add_listener(DebugLayerListener('A2 Top'))
+    a2.bottom.add_listener(DebugLayerListener('A2 Bottom'))
+    b2.top.add_listener(DebugLayerListener('B2 Top'))
+    b2.bottom.add_listener(DebugLayerListener('B2 Bottom'))
     
-    connect_layers(a_string_layer, a_reverse_layer)
-    connect_layers(a_reverse_layer, a_char_layer)
-
-    # =====================================================================
-
-
-    a_reverse_layer.top.add_listener(DebugLayerListener('B2 Top'))
-    a_reverse_layer.bottom.add_listener(DebugLayerListener('B2 Bottom'))
+    a1.top.add_listener(DebugLayerListener('A1 Top'))
+    a1.bottom.add_listener(DebugLayerListener('A1 Bottom'))
+    b1.top.add_listener(DebugLayerListener('B1 Top'))
+    b1.bottom.add_listener(DebugLayerListener('B1 Bottom'))
     
-    a_string_layer.top.add_listener(DebugLayerListener('B3 Top'))
-    a_string_layer.bottom.add_listener(DebugLayerListener('B3 Bottom'))
-
-    a_char_layer.top.add_listener(DebugLayerListener('B1 Top'))
-    a_char_layer.bottom.add_listener(DebugLayerListener('B1 Bottom'))
-
-    a_string_layer.bottom.add_listener(a_reverse_layer.top)
-    a_reverse_layer.bottom.add_listener(a_char_layer.top)
-
-    connect_ZZ(a_char_layer, a_char_layer)
-    # b_string_layer.top.receive(string_entrado)
-    a_string_layer.top.receive(string_entrado)
-    print('-----------------')
+    Layer.connect_all(a3, a2, a1)
+    Layer.connect_all(b1, b2, b3)
+    Layer.crossover(b1,a1)
+    # quit()
+   
+    a3.top.receive('Gelain')
+    # b3.top.receive('Gelain')
+    # print('-----------------')
