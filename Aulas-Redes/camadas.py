@@ -81,30 +81,32 @@ class ReverseLayer():
 class CharLayer():
     top: LayerInterface
     bottom: LayerInterface
-    
-    
-    
     def __init__(self):
         self.top = BaseLayerInterface()
         self.bottom = BaseLayerInterface()
         
         self.buffer = []
         
-        def top_receive(data):
-           if data is None:
-               self.fire_data(''.join(self.buffer)) 
-        self.top.receive = top_receive
- 
         def bottom_receive(data):
+           if data is None:
+                
+                self.bottom.fire_data(''.join(self.buffer))
+                self.buffer = []
+           else:
+                # print(data)
+                self.buffer.append(data)
+        self.bottom.receive = bottom_receive
+ 
+        def top_receive(data):
             for c in data:
                 self.bottom.fire_data(c)
             self.bottom.fire_data(None)
            
-        self.bottom.receive = bottom_receive
+        self.top.receive = top_receive
 
 class Layer:
-    top_interface = None
-    bottom_interface = None
+    top = LayerInterface
+    bottom = LayerInterface
 
     @classmethod
     def connect_all(cls, *layers : List['Layer']):
@@ -116,15 +118,6 @@ class Layer:
     def crossover(cls, a : 'Layer', b : 'Layer'):
         a.bottom.add_listener(b.bottom)
         b.bottom.add_listener(a.bottom)
-
-# def connect_layers(layer_top, layer_bottom):
-#     layer_top.bottom.add_listener(layer_bottom.top)
-#     layer_bottom.top.add_listener(layer_top.bottom)
-    
-
-# def connect_B_to_B(layer1,layer2):
-#     layer1.bottom.add_listener(layer2.bottom)
-#     layer2.bottom.add_listener(layer1.bottom)
 
 if __name__ == '__main__':
 
@@ -152,14 +145,10 @@ if __name__ == '__main__':
     b1.bottom.add_listener(DebugLayerListener('B1 Bottom'))
     
     Layer.connect_all(a3, a2, a1)
-    Layer.connect_all(b3, b2, b1)
-    Layer.crossover(a1,b1)
-    print('------------------')
+    Layer.connect_all(b1, b2, b3)
+    Layer.crossover(b1,a1)
     # quit()
-    # connect_layers(b3,b2)
-    # connect_layers(b2,b1)
-    
-    # connect_B_to_B(a1,b1)
-    a3.top.receive('Leandro')
+   
+    a3.top.receive('Gelain')
     # b3.top.receive('Gelain')
     # print('-----------------')
