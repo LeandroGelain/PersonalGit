@@ -1,7 +1,7 @@
 from BaseLayer import BaseLayerInterface, LayersInterface, DebugLayer
 from typing import List
 
-class StringLayers(LayersInterface):
+class StringLayer(LayersInterface):
 
     top: LayersInterface
     bottom: LayersInterface
@@ -85,11 +85,11 @@ class Layer:
 
 if __name__ == '__main__':
 
-    a3 = StringLayers()
+    a3 = StringLayer()
     a2 = RevertLayer()
     a1 = CharLayer()
     
-    b3 = StringLayers()
+    b3 = StringLayer()
     b2 = RevertLayer()
     b1 = CharLayer()
     
