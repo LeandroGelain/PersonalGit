@@ -91,8 +91,9 @@ class CharLayer():
            if data is None:
                 self.top.fire_data(''.join(self.buffer))
                 self.buffer = []
+       
            else:
-                # print(data)
+       
                 self.buffer.append(data)
         self.bottom.receive = top_receive
  
@@ -144,10 +145,10 @@ if __name__ == '__main__':
     b1.bottom.add_listener(DebugLayerListener('B1 Bottom'))
     
     Layer.connect_all(a3, a2, a1)
-    Layer.crossover(b1,a1)
     Layer.connect_all(b3, b2, b1)
+    Layer.crossover(b1,a1)
     # quit()
    
-    # a3.top.receive('Gelain')
-    b3.top.receive('Gelain')
+    a3.top.receive('zezinho')
+    # b3.top.receive('zezinho')
     # print('-----------------')
