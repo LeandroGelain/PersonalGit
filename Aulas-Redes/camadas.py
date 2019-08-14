@@ -147,8 +147,8 @@ if __name__ == '__main__':
     Layer.connect_all(a3, a2, a1)
     Layer.connect_all(b3, b2, b1)
     Layer.crossover(b1,a1)
-    # quit()
+    
    
-    a3.top.receive('zezinho')
+    b3.top.receive('subinoonibus')
     # b3.top.receive('zezinho')
     # print('-----------------')

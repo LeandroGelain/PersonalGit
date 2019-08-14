@@ -1,0 +1,1020 @@
+1565701914996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wT8aINvDK6Ej"
+1565701917675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565701917675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565701917675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565701917675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565701922013	Marionette	INFO	Listening on port 37571
+1565701922118	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565701952913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3jfLKmyfrPKZ"
+1565701953215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565701953215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565701953216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565701953216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565701954597	Marionette	INFO	Listening on port 36847
+1565701954627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1565701965171	Marionette	INFO	Stopped listening on port 37571
+1565702025726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZF8ps3svqIgl"
+1565702026031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565702026031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565702026031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565702026031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565702027416	Marionette	INFO	Listening on port 39987
+1565702027442	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565702034900	Marionette	INFO	Stopped listening on port 39987
+1565702058515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2bdYswd7bo1t"
+1565702058867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565702058867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565702058867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565702058867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565702060260	Marionette	INFO	Listening on port 46083
+1565702060323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565702072537	Marionette	INFO	Stopped listening on port 46083
+console.error: "stylesheets actor: fetch failed for http://bvmf.bmfbovespa.com.br/RadControls/TabStrip/Skins/SiteBmfBovespa/styles.css, using system principal instead."
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "onResponse@resource://devtools/shared/DevToolsUtils.js:555:34\nonStopRequest@resource://gre/modules/NetUtil.jsm:123:17\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "sheet.ownerNode is null"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:133:21\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): sheet.ownerNode is null"
+JavaScript error: , line 0: uncaught exception: Protocol error (unknownError): sheet.ownerNode is null
+console.error: "stylesheets actor: fetch failed for http://bvmf.bmfbovespa.com.br/RadControls/TabStrip/Skins/SiteBmfBovespa/styles.css, using system principal instead."
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "onResponse@resource://devtools/shared/DevToolsUtils.js:555:34\nonStopRequest@resource://gre/modules/NetUtil.jsm:123:17\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript error: http://www.b3.com.br/pt_br/blocos/, line 554: ReferenceError: $ is not defined
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565702215286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vezZtvA2LVtO"
+1565702215606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565702215606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565702215607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565702215607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565702217017	Marionette	INFO	Listening on port 38947
+1565702217091	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565702220714	Marionette	INFO	Stopped listening on port 38947
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4449: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4465: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+1565702341074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2xphbppPfpwy"
+1565702341431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565702341431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565702341431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565702341431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565702342935	Marionette	INFO	Listening on port 46135
+1565702342998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565702355811	Marionette	INFO	Stopped listening on port 46135
+1565702373793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fPRd1dtbb8eA"
+1565702374116	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565702374117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565702374117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565702374117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565702375657	Marionette	INFO	Listening on port 43217
+1565702375699	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=4_i8nphUh5rGmRIwHa0b8XlNkrVyjaEwi-WEHsmjEnUgKiQN-b9KKiQzgqfaR8sT5z26xlACC3V7B804GFq5jSPFy2DO48UkNXH5R1v0sadYRWdnQbdURhSEbESZYSMkLb_5lSdjeWTTdHQ-EL2wbwNAs80XW66UQk7ZDV_BV7k2A9dME17WWagt12DIpp40RalgG0med8eb8qCaPCLMLhiy2941&t=636213560822372796, line 1880: unreachable code after return statement
+1565702379584	Marionette	INFO	Stopped listening on port 43217
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4449: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4465: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 43: TypeError: window is null
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4449: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4465: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4449: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 4465: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+JavaScript warning: http://bvmf.bmfbovespa.com.br/WebResource.axd?d=uDL-oJ8rwOf4eDbtj96Cf0Ixj6pmO1kSMMwMOx9L66hnOOJZl-GoFdwp7eAx9TMIoFw_l9H8oADbJZsR3vkPgP4RBhqqoJMXOhV0aIHHj2qxYGc9z3yaU3EwpDMizOnUt4Zpjnr7-mrLYjGXnDnum4tlF7Y1tczYtQQiaTkfnRufKff6GWW9skbcuq52BwsMcqdwQg2&t=636213560815653895, line 702: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565654482633%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703139078;channel=economia.uol.com.br;click=, line 27: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703142203;channel=economia.uol.com.br;click=, line 27: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703151164;channel=economia.uol.com.br;click=, line 27: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703177614;channel=economia.uol.com.br;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703179839;channel=economia.uol.com.br;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703183548;channel=economia.uol.com.br;click=, line 27: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703232516;channel=economia.uol.com.br;tt-cluster=na;click=, line 27: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: https://www.refinitiv.com/en/?utm_content=Refinitiv%20Brand%20Core-BRZ-AMER-G-EN-Exact&utm_medium=cpc&utm_source=google&utm_campaign=68831_500kPPCRebrand&elqCampaignId=5916&utm_term=refinitiv&gclid=EAIaIQobChMIjbiyh_v_4wIVjA6RCh0kVwCQEAAYASAAEgILI_D_BwE, line 10701: ReferenceError: gtag is not defined
+JavaScript error: https://www.refinitiv.com/en/financial-data/pricing-data/commodities-pricing-data, line 10622: ReferenceError: gtag is not defined
+JavaScript error: https://www.refinitiv.com/en/?utm_content=Refinitiv%20Brand%20Core-BRZ-AMER-G-EN-Exact&utm_medium=cpc&utm_source=google&utm_campaign=68831_500kPPCRebrand&elqCampaignId=5916&utm_term=refinitiv&gclid=EAIaIQobChMIjbiyh_v_4wIVjA6RCh0kVwCQEAAYASAAEgILI_D_BwE, line 10701: ReferenceError: gtag is not defined
+JavaScript error: https://www.refinitiv.com/pt, line 5858: ReferenceError: gtag is not defined
+JavaScript error: https://www.refinitiv.com/pt/products, line 4750: ReferenceError: gtag is not defined
+JavaScript error: https://www.refinitiv.com/pt, line 5858: ReferenceError: gtag is not defined
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703367154;channel=economia.uol.com.br;tt-cluster=na;click=, line 27: unreachable code after return statement
+JavaScript error: https://c.jsuol.com.br/assets/?loadComponent=media&contentType=js&tpl=alert,forms,photo,read-more,modal,babel,babel-login,babel-service,comments,ads,share,navigation-search-list,financial-market-submenu,widget-profile,article-wrapper,financial-market-full,ticker-financial-market,readspeaker&cache=201908071046, line 1: ReferenceError: widgetProfile is not defined
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703370794;channel=economia.uol.com.br;tt-cluster=na;click=, line 27: unreachable code after return statement
+JavaScript warning: http://tm.jsuol.com.br/uoltm.js?id=k9vrg1, line 1: unreachable code after return statement
+JavaScript warning: http://tm.jsuol.com.br/uoltm.js?id=k9vrg1, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703402417;channel=economia.uol.com.br;tt-cluster=na;click=, line 27: unreachable code after return statement
+JavaScript error: https://www.fundamentus.com.br/script/Observer.js, line 10: ReferenceError: Class is not defined
+JavaScript error: https://www.fundamentus.com.br/script/Autocompleter.js, line 14: ReferenceError: Class is not defined
+JavaScript error: https://www.fundamentus.com.br/script/cmplte.php, line 2: TypeError: window.addEvent is not a function
+JavaScript error: https://www.fundamentus.com.br/script/tip.js, line 1: TypeError: window.addEvent is not a function
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703404734;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://analises.clear.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1648441077, line 1: unreachable code after return statement
+JavaScript warning: https://analises.clear.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1648441077 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://s.yimg.com/ch/html5/5274f0f8-651e-4fe4-b84b-3ff5fc5e469a/10731be1-c862-44d3-8844-7bd42670a5b9.html, line 103: TypeError: recebeClique is null
+JavaScript error: https://cti.w55c.net/ct/cms-2-rubicon.min.js, line 1: TypeError: s[i.parameter] is undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703572409;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703575061;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703690797;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703723868;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703740860;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=twjw4y, line 1: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703743832;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703774910;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703837944;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703868335;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703902698;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703909349;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703911837;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703943146;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565703974404;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704005217;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704067691;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704077850;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704080297;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704111550;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704173778;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704236085;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704245994;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704248384;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704279656;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704310879;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704341710;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript warning: https://t.dynad.net/script/?dc=5550003059;ord=1565704372937;channel=economia.uol.com.br;tt-age=na;tt-cluster=na;tt-customaudience=CA7847,CA11755,CA11415,CA11345,CA11421;tt-gender=na;tt-microsegments=na;tt-socialclass=na;tt-subjects=na;tt-team=na;click=, line 27: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1
+console.error: "NetworkHelper.getReasonsForWeakness threw an exception: STATE_IS_BROKEN without a known reason. Full state was: 1"
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1676: TypeError: can't access dead object
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn2.child1/context18' can't be sent as the connection is closed."
+JavaScript error: https://www.andremoraesnabolsa.com.br/tag/os-melhores-sites-sobre-bols-de-valores/ line 3107 > scriptElement, line 1: TypeError: $ is not a function
+JavaScript error: https://www.andremoraesnabolsa.com.br/tag/os-melhores-sites-sobre-bols-de-valores/ line 3107 > scriptElement, line 2: TypeError: $ is undefined
+JavaScript error: https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=150706, line 1: Error: OneSignal: This web push config can only be used on http://www.andremoraesnabolsa.com.br. Your current origin is https://www.andremoraesnabolsa.com.br.
+JavaScript error: https://www.andremoraesnabolsa.com.br/tag/os-melhores-sites-sobre-bols-de-valores/, line 522: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.andremoraesnabolsa.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1076589202, line 1: unreachable code after return statement
+JavaScript warning: https://www.andremoraesnabolsa.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1076589202, line 1: unreachable code after return statement
+JavaScript warning: https://www.andremoraesnabolsa.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1076589202 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://d1gwclp1pmzk26.cloudfront.net/3-1/widget-js/browser/min/livechat-v2.js, line 1: unreachable code after return statement
+JavaScript error: https://my.clickdesk.com/rest/visitor/widget/preferences?widget_id=all_ag9zfmNsaWNrZGVza2NoYXRyDwsSBXVzZXJzGOD03cIMDA&url=https%3A%2F%2Fwww.andremoraesnabolsa.com.br%2Ftag%2Fos-melhores-sites-sobre-bols-de-valores%2F, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://d1gwclp1pmzk26.cloudfront.net/3-1/widget-js/browser/min/livechat-v2.js, line 1: ReferenceError: widgetPrefsJSON is not defined
+JavaScript error: , line 0: uncaught exception: Highcharts error #13: www.highcharts.com/errors/13
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://br-store.acer.com/p/220/N5JA74h5sZ6Y_V1RjBCvnQ.csjs, line 1454: Error: [ng:btstrpd] http://errors.angularjs.org/1.2.21/ng/btstrpd?p0=%3Cdiv%20id%3D%22appBundles%22%20class%3D%22bundles%20box-content%20m--hide%20ng-hide%20ng-scope%22%20ng-app%3D%22AppAngular%22%20ng-controller%3D%22bundle%22%20ng-show%3D%22hasBundles%22%3E
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://br-store.acer.com/d/215/gamer, line 749: TypeError: top.spl is undefined
+JavaScript error: https://br-store.acer.com/p/220/N5JA74h5sZ6Y_V1RjBCvnQ.csjs, line 1454: Error: [ng:btstrpd] http://errors.angularjs.org/1.2.21/ng/btstrpd?p0=%3Cdiv%20id%3D%22appBundles%22%20class%3D%22bundles%20box-content%20m--hide%20ng-hide%20ng-scope%22%20ng-app%3D%22AppAngular%22%20ng-controller%3D%22bundle%22%20ng-show%3D%22hasBundles%22%3E
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://br-store.acer.com/p/391/notebook-acer-aspire-3-a315-53-365q-intel-core-i3-8130u-4gb-ram-1tb-tela-de-156-hd-linux-endles, line 46: SyntaxError: missing } after property list
+JavaScript note: https://br-store.acer.com/p/391/notebook-acer-aspire-3-a315-53-365q-intel-core-i3-8130u-4gb-ram-1tb-tela-de-156-hd-linux-endles, line 45: { opened at line 45, column 22
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://br-store.acer.com/p/393/notebook-acer-aspire-5-a515-51-37lg-intel-core-i3-8130u-4gb-ram-1tb-hd-tela-de-156-hd-windows-10, line 46: SyntaxError: missing } after property list
+JavaScript note: https://br-store.acer.com/p/393/notebook-acer-aspire-5-a515-51-37lg-intel-core-i3-8130u-4gb-ram-1tb-hd-tela-de-156-hd-windows-10, line 45: { opened at line 45, column 22
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.dataunion.com.br/4c13aad0-a70d-11e9-b19a-4706fcb6a0c9, line 1: TypeError: i.toElement is undefined
+JavaScript error: https://www.samsung.com/etc/designs/smg/global/templates/page-pf.e4fcef6c1b621aaa7b3f2638bc157385.js, line 20: TypeError: n.substr is not a function
+JavaScript error: https://www.samsung.com/etc/designs/smg/global/templates/page-pd.8b2cb7637dbd3fb3f465497fe2362a50.js, line 62: TypeError: n.substr is not a function
+JavaScript error: https://www.samsung.com/etc/designs/smg/global/templates/page-pf.e4fcef6c1b621aaa7b3f2638bc157385.js, line 20: TypeError: n.substr is not a function
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 6479: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17154: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript error: https://www.americanas.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=08-13, line 1: Error: Forbidden
+JavaScript error: https://www.americanas.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=08-13, line 1: Error: Forbidden
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 6479: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17154: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript error: https://www.americanas.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=08-13, line 1: Error: Forbidden
+JavaScript error: https://www.americanas.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=08-13, line 1: Error: Forbidden
+JavaScript error: https://statics-americanas.b2w.io/pdp/29.1ec061c58a911b7aaa13.desktop.js, line 1: TypeError: Network request failed
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 6479: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17154: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript error: https://www.americanas.com.br/produto/123/cage.html?outputID=1&_date=08-13, line 1: Error: Forbidden
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 6479: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17154: unreachable code after return statement
+JavaScript error: https://www.americanas.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=08-13, line 1: Error: Forbidden
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 17120: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/296b83a81627fd662c5aecf8289129e20324f9b7/satelliteLib-7b44694604382543f3bbc5fbdcfd02ac4e7b0caf.js?_date=08-13, line 9593: unreachable code after return statement
+JavaScript error: https://www.americanas.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=08-13, line 1: Error: Forbidden
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: uncaught exception: Highcharts error #13: www.highcharts.com/errors/13
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: , line 0: uncaught exception: Highcharts error #13: www.highcharts.com/errors/13
+[Parent 18952, Gecko_IOThread] WARNING: pipe error: Pipe quebrado: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3020: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3039: Error: WebGL warning: copyTexSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.google.com/maps?client=firefox-b-d&q=rio+quente&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj3h6qJlIDkAhWtIrkGHdaNCGQQ_AUIESgB line 1345 > scriptElement, line 3021: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: , line 0: uncaught exception: Highcharts error #13: www.highcharts.com/errors/13
+JavaScript error: , line 0: uncaught exception: Highcharts error #13: www.highcharts.com/errors/13
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn3.child1/context18' can't be sent as the connection is closed."
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+JavaScript error: resource://devtools/server/actors/network-monitor/network-response-listener.js, line 88: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIProgressEventSink.onStatus]
+JavaScript error: resource://devtools/server/actors/network-monitor/network-response-listener.js, line 88: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIProgressEventSink.onStatus]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/memoryActor6, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol.js:1386:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol.js:1510:19\ndestroy@resource://devtools/client/memory/panel.js:59:32\n_destroyToolbox@resource://devtools/client/framework/toolbox.js:3192:32\ndestroy@resource://devtools/client/framework/toolbox.js:3131:28\n_onTargetClosed@resource://devtools/client/framework/toolbox.js:889:10\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\nTargetMixin/destroy/this._destroyer<@resource://devtools/shared/fronts/targets/target-mixin.js:526:14\ndestroy@resource://devtools/shared/fronts/targets/target-mixin.js:570:9\ndestroy@resource://devtools/shared/fronts/targets/browsing-context.js:140:27\nhandleEvent@resource://devtools/shared/fronts/targets/target-mixin.js:478:16\n_beginRemoveTab@chrome://browser/content/tabbrowser.js:3005:10\nremoveTab@chrome://browser/content/tabbrowser.js:2827:15\nonxblclick@chrome://browser/content/tabbrowser.xml:2433:22\n", "resource://devtools/shared/protocol.js", 1299))
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn1.child1/context18' can't be sent as the connection is closed."
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn4.child1/context18' can't be sent as the connection is closed."
+[Parent 18952, Gecko_IOThread] WARNING: pipe error (82): Conexão fechada pela outra ponta: file /build/firefox/src/firefox-68.0.1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1565721942471	Marionette	INFO	Stopped listening on port 36847

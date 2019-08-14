@@ -113,6 +113,6 @@ if __name__ == '__main__':
     Layer.crossover(b1,a1)
     # quit()
    
-    a3.top.receive('leandro')
-    # b3.top.receive()
+    # a3.top.receive('leandro')
+    b3.top.receive('Leandro Gelain')
     # print('-----------------')
