@@ -50,40 +50,41 @@ class Graph_matriz(object):
             alfaContColuna=0
             alfaContLinha+=1
 
-vertices = int(input('Digite o numero de vertices (v <= 8): '))
-g = Graph_matriz(vertices)
+# vertices = int(input('Digite o numero de vertices (v <= 8): '))
+g = Graph_matriz(0)
 
 matriz_trocada = [[0,1,0,0,1],
                   [1,0,1,1,0],
                   [0,1,0,1,0],
                   [0,1,1,0,1],
                   [1,0,0,1,0]]
+
 g.verifica_adj(matriz_trocada, 3)
 
 quit()
 
-if __name__ == '__main__':
-    matriz = g.armazena()
-    # g.printa_matriz(matriz)
-    print('---------------------------')
-    while True:
-        v1 = int(input('digite o vertice v1: '))
-        v2 = int(input('digite o vertice v2: '))
-        try:
-            matriz_trocada = g.inserir_aresta(matriz, v1, v2)
-            resposta = str(input('Quer acrecentar mais? '))
-            while True:
-                if resposta.lower == 'sim':
-                    v1 = int(input('digite o vertice v1: '))
-                    v2 = int(input('digite o vertice v2: '))
-                    matriz_trocada = g.inserir_aresta(matriz, v1, v2)
-                else:
-                    pass
-                break
-            break
-        except IndexError:
-            print('Lista fora do range')
-    g.printa_matriz(matriz_trocada)
-    print('---------------------------')
+# if __name__ == '__main__':
+#     matriz = g.armazena()
+#     # g.printa_matriz(matriz)
+#     print('---------------------------')
+#     while True:
+#         v1 = int(input('digite o vertice v1: '))
+#         v2 = int(input('digite o vertice v2: '))
+#         try:
+#             matriz_trocada = g.inserir_aresta(matriz, v1, v2)
+#             resposta = str(input('Quer acrecentar mais? '))
+#             while True:
+#                 if resposta.lower == 'sim':
+#                     v1 = int(input('digite o vertice v1: '))
+#                     v2 = int(input('digite o vertice v2: '))
+#                     matriz_trocada = g.inserir_aresta(matriz, v1, v2)
+#                 else:
+#                     pass
+#                 break
+#             break
+#         except IndexError:
+#             print('Lista fora do range')
+#     g.printa_matriz(matriz_trocada)
+#     print('---------------------------')
 
     
