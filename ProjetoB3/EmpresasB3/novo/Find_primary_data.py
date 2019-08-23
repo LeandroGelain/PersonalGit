@@ -17,9 +17,11 @@ class Get_data(object):
     def scraper(self, url):
         # self.driver.get(url)
         self.page = requests.get(url)
-        self.soup = (self.page.content, 'lxml')
+        self.soup = Bs(self.page.content, 'lxml')
         for self.content in self.soup.find_all('tbody'):
             print(self.content)
+            
+            
 if __name__ == '__main__':
     try:
         get = Get_data()
