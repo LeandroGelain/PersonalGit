@@ -4,7 +4,7 @@ class Hamming(object):
         pass
 
     @classmethod
-    def bits(self, numero):
+    def number_to_binary(self, numero):
         self.Bytes = ("{0:b}".format(numero))
         self.array_bits = []
         for self.bit in self.Bytes:
@@ -29,6 +29,6 @@ class Hamming(object):
     
 if __name__ == '__main__':
     numero = int(input('Numero pra binario:'))
-    list_bits = Hamming.bits(numero)
+    list_bits = Hamming.number_to_binary(numero)
     list_err = Hamming.error_bit(list_bits)
     
