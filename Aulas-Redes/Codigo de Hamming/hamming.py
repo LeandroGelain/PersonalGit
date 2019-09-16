@@ -25,10 +25,26 @@ class Hamming(object):
         print('Array com erro',array_bits)
         print('===============================')
         return list(array_bits)  
-    
-    
-if __name__ == '__main__':
-    numero = int(input('Numero pra binario:'))
-    list_bits = Hamming.number_to_binary(numero)
-    list_err = Hamming.error_bit(list_bits)
-    
+
+    @classmethod    
+    def indices(self, p, tamanho):
+        for i in range(p,tamanho+1,p*2):
+            yield from range(i,min(i+p,tamanho+1))
+
+    @classmethod
+    def main(self):
+        numero = int(input('Numero pra binario:'))
+        list_bits = self.number_to_binary(numero)
+        # list_err = self.error_bit(list_bits)
+        cont=1
+        lista_ps=[1,2,4,8,16]
+        for i in lista_ps:
+            if len(list_bits) >= i:
+                print(i)
+            # cont+=i
+        # print(list_err)
+
+array = [0,1,2,3,4,5,6,7]
+
+if __name__ == '__main__': 
+    Hamming.main()
