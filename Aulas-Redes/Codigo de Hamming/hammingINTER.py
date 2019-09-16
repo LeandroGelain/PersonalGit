@@ -1,98 +1,167 @@
-option=int(input('Press 1 for generating hamming code  \nPress 2 for finding error in hamming code\n\t Enter your choice:--\n'))
+def autocompletar(cadena):
+	# convertimos la cadena en lista
+	cadena = list(cadena)
 
-if(option==1):  # GENERATE HAMMING CODE
-    print('Enter the data bits')
-    d=input()
-    data=list(d)
-    data.reverse()
-    c,ch,j,r,h=0,0,0,0,[]
+	x = posicion = 0	
+	while posicion < len(cadena):
+		posicion = 2 ** x
+		# insertamos el valor de paridad
+		if posicion < len(cadena):
+			cadena.insert(posicion-1, "*")
+		else:
+			break
+		x += 1
 
-    while ((len(d)+r+1)>(pow(2,r))):
-        r=r+1
+	cadena = "".join(cadena)
+	return cadena
 
-    for i in range(0,(r+len(data))):
-        p=(2**c)
+def calcularFila(cadenaAuto, salto, cadenaTemporal=""):
+	'''Este metodo es para calcular paridades individuales '''
+	originalCadenaAuto = cadenaAuto
 
-        if(p==(i+1)):
-            h.append(0)
-            c=c+1
+	# recortamos la cadena para que empiece en ese elemento
+	cadenaAuto = cadenaAuto[salto-1:]
+	# agregamos una varible apoyo para conservar las "coordenadas"
+	n = "N"*(salto-1)
+	cadenaTemporal += n 
 
-        else:
-            h.append(int(data[j]))
-            j=j+1
+	n = "N"*salto
+	nsalto = salto * 2
+	while len(cadenaAuto) > 0:
+		# tomamos los elementos segun la paridad
+		cadenaTemporal += cadenaAuto[:salto]
+		# brincamos los elementos segun la paridad
+		cadenaAuto = cadenaAuto[nsalto:]
+		# agregamos una varible apoyo para conservar las coordenadas
+		cadenaTemporal += n
+		
+	# truncamos hasta el largo de la cadena con paridad
+	cadenaTemporal = cadenaTemporal[:len(originalCadenaAuto)]
 
-    for parity in range(0,(len(h))):
-        ph=(2**ch)
-        if(ph==(parity+1)):
-            startIndex=ph-1
-            i=startIndex
-            toXor=[]
+	return cadenaTemporal
 
-            while(i<len(h)):
-                block=h[i:i+ph]
-                toXor.extend(block)
-                i+=2*ph
+def obtenerFilas(cadenaAuto):
+	filasDeParidad = dict()
 
-            for z in range(1,len(toXor)):
-                h[startIndex]=h[startIndex]^toXor[z]
-            ch+=1
+	totalFilas = cadenaAuto.count("*")
+	filaActual = 0
+	# hacemos una fila por cada elemento de paridad
+	while totalFilas > filaActual:
+		salto = 2 ** filaActual
+		filasDeParidad[salto] = calcularFila(cadenaAuto, salto) 
+		filaActual += 1
+	return filasDeParidad
 
-    h.reverse()
-    print('Hamming code generated would be:- ', end="")
-    print(int(''.join(map(str, h))))
+def buscarErrores(filasDeParidad):
+	''' Buscamos las filas que las suma de sus bits sea impar. '''
+	filasErroneas = list()
+	for llave, contenido in filasDeParidad.items():
+		sumatoria = 0
+		for elemento in contenido:
+			for caracter in elemento:
+				if caracter != "*" and caracter != "N":
+					sumatoria += int(caracter)
+		if sumatoria % 2 != 0: 
+			error = True
+			# significa que es impar
+			filasErroneas.append(llave)
+		else:
+			error = False
+	return filasErroneas, error
+
+def buscamosRelacionErrores(bitsFilasErroneas):
+	columnasRelacionadas = list()
+	for indice, elementosFilas in enumerate(bitsFilasErroneas):
+		centinela = False
+		for bit in elementosFilas:
+			try:
+				# si los numeros se pueden convertir a enteros
+				# significa que las columnas estan relacionadas
+				int(bit)
+				centinela = True
+			except:
+				centinela = False
+				break
+		if centinela:
+			columnasRelacionadas.append(indice)
+	return columnasRelacionadas
+
+def buscarColumnasRelacionadas(filas, filasErroneas):
+	longitud = len(filas.values()[0])
+	
+	bitsFilasErroneas = list()
+	for i in range(longitud):
+		bits = ""
+		copyFilasErroneas = list(filasErroneas)
+		while len(copyFilasErroneas) > 0:
+			# asignamos la fila a buscar
+			filaObjetivo = copyFilasErroneas.pop(0)
+			for j in filasErroneas:
+				if j == filaObjetivo:
+					# ... y guardamos su elemento
+					bits += filas[j][i]
+		bitsFilasErroneas.append(bits)
+
+	''' Ahora que tenemos los bits que se forman con cada fila erronea,
+	tenemos que encontrar cuales columanas estan relacionadas.
+	'''
+	columnasRelacionadas = buscamosRelacionErrores(bitsFilasErroneas)
+	return columnasRelacionadas
+
+def quitarEspaciosParidad(cadenaAuto):
+	return cadenaAuto.replace("*", "")
+
+def main():
+	cadena = "10111"
+	print("Cadena de entrada:", cadena)
+	# Autocompletamos la cadena con * en las
+	# posiciones de la paridad
+	cadenaAuto = autocompletar(cadena)
+	originalCadenaAuto = cadenaAuto
+	print("-----------------")
+
+	# Haremos esto hasta que no haya errores en la palabra binaria
+	while True: 
+		# obtenemos el valor de las filas segun la paridad
+		print("Cadena a analizar:", cadenaAuto)
+		filas = obtenerFilas(cadenaAuto)
+		print("valor de todas las filas con paridad:\n", filas)
+
+		# sumamos las filas en busca de errores("1")
+		(filasErroneas, error) = buscarErrores(filas)
+		if not error:
+			break # SALIMOS
+	
+		print("filas que contienen errores:\n", filasErroneas)
+		# reparamos las filas erroneas
+		columnasRelacionadas = buscarColumnasRelacionadas(filas, filasErroneas)
+		print("columnas relacionadas:\n", columnasRelacionadas)
+
+		''' Ya que tenemos cuales columnas estan relaciondas, tenemos 
+		que cambiar los bits de esas columnas hasta que la suma de las 
+		filas sea PAR; lo hare a prueba y error.
+		'''
+		
+		for i in columnasRelacionadas:
+			copyCadenaAuto = originalCadenaAuto
+			if cadenaAuto[i] == "0":
+				print("1")
+				cadenaAuto = copyCadenaAuto[:i] + "1" + copyCadenaAuto[i+1:]
+				break
+			else:
+				print("2")
+				cadenaAuto = copyCadenaAuto[:i] + "0" + copyCadenaAuto[i+1:]
+				break
+
+		print("-----------------")
+
+	# quitamos los bits de paridad
+	cadenaSinErrores = quitarEspaciosParidad(cadenaAuto)
+
+	print("---RESULTADOS-----------------")
+	print("ENTRADA", cadena)
+	print("SALIDA ", cadenaSinErrores)
+	
 
 
-elif(option==2): # DETECT ERROR IN RECEIVED HAMMING CODE
-    print('Enter the hamming code received')
-    d=input()
-    data=list(d)
-    data.reverse()
-    c,ch,j,r,error,h,parity_list,h_copy=0,0,0,0,0,[],[],[]
-
-    for k in range(0,len(data)):
-        p=(2**c)
-        h.append(int(data[k]))
-        h_copy.append(data[k])
-        if(p==(k+1)):
-            c=c+1
-            
-    for parity in range(0,(len(h))):
-        ph=(2**ch)
-        if(ph==(parity+1)):
-
-            startIndex=ph-1
-            i=startIndex
-            toXor=[]
-
-            while(i<len(h)):
-                block=h[i:i+ph]
-                toXor.extend(block)
-                i+=2*ph
-
-            for z in range(1,len(toXor)):
-                h[startIndex]=h[startIndex]^toXor[z]
-            parity_list.append(h[parity])
-            ch+=1
-    parity_list.reverse()
-    error=sum(int(parity_list) * (2 ** i) for i, parity_list in enumerate(parity_list[::-1]))
-    
-    if((error)==0):
-        print('There is no error in the hamming code received')
-
-    elif((error)>=len(h_copy)):
-        print('Error cannot be detected')
-
-    else:
-        print('Error is in',error,'bit')
-
-        if(h_copy[error-1]=='0'):
-            h_copy[error-1]='1'
-
-        elif(h_copy[error-1]=='1'):
-            h_copy[error-1]='0'
-            print('After correction hamming code is:- ')
-        h_copy.reverse()
-        print(int(''.join(map(str, h_copy))))
-
-else:
-    print('Option entered does not exist')
+main()
