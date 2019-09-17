@@ -1,20 +1,45 @@
-import networkx as nx
-import matplotlib.pyplot as plt
+# -*- encoundig: utf-8 -*-
 
-def buildG(G):
-    grafo = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6],[7,8],[7,10],[8,10],[8,11],[9,11]]
-    for arestas in grafo:
-        G.add_edge(arestas[0],arestas[1])
+class buscar(object):
 
-def main():
-    graph_fn="tempset3.txt";
-    G = nx.Graph() 
-    buildG(G)
-    comps=nx.connected_components(G)
-    nx.draw(G)
-    plt.show()
-    cont=1
-    for comp in comps:
-        print('Componete %s : %s '%(cont,comp))
-        cont+=1
-main()
+	def por_profundidade(self, grafo, vertice, visitados):
+			if vertice in visitados:
+				return False
+			visitados.append(vertice)
+			for vizinho in grafo[vertice]['adjacentes']:
+				if vizinho not in visitados:
+					self.por_profundidade(grafo, vizinho, visitados)
+			return list(visitados)
+
+grafo = [
+	# componente 1
+	{'vertice':0 , 'adjacentes': [1,2] },
+	{'vertice':1 , 'adjacentes': [0,3,4]},
+	{'vertice':2 , 'adjacentes': [0,5,6]},
+	{'vertice':3 , 'adjacentes': [1]},
+	{'vertice':4 , 'adjacentes': [1]},
+	{'vertice':5 , 'adjacentes': [2]},
+	{'vertice':6 , 'adjacentes': [2]},
+
+	# componente 2    
+	{'vertice':7 , 'adjacentes': [8,10]},
+	{'vertice':8 , 'adjacentes': [7,9,10]},
+	{'vertice':9 , 'adjacentes': [11]},
+	{'vertice':10 , 'adjacentes': [7,8]},
+	{'vertice':11 , 'adjacentes': [8,9]}
+						]
+
+buscar = buscar()
+
+componentes = []
+visitados = []
+for i in range(0,len(grafo)):
+    componente = buscar.por_profundidade(grafo, i, visitados)
+    if not componente == False:
+        componentes.append(componente)
+
+for rm in componentes[0]:
+    componentes[1].remove(rm)
+
+for c in range(len(componentes)):
+	print('Componente %s: %s'%(c+1,componentes[c]))
