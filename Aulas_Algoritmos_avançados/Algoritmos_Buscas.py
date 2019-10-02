@@ -54,6 +54,7 @@ grafo_orientado = [
                                                     ]
 
 buscar = buscar()
+
 # -----------------------------------------------------------
 # buscar.get_no()
 # buscar.por_largura(grafo_arvore)
