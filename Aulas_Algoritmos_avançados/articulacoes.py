@@ -17,7 +17,8 @@ class buscar(object):
 	def profundidade_main(self, grafo):
 		componentes = []
 		visitados = []
-		for i in range(0,len(grafo)):
+		
+		for i in range(len(grafo)):
 			componente = self.por_profundidade(grafo, i, visitados)
 			if not componente == False:
 				componentes.append(componente)
@@ -29,8 +30,7 @@ class buscar(object):
 
 		return list(componentes)
 
-	def articulation(self, grafo, vertice, componentes):
-		listaComponentes_sem_remove = self.profundidade_main(grafo)
+	def articulation(self, grafo, vertice):
 		poped = grafo.pop(0)
 		listaComponentes = self.profundidade_main(grafo)
 		grafo.append(poped)
@@ -41,11 +41,11 @@ class buscar(object):
 
 	def aticulation_main(self, grafo):
 		lista_articulacao = []
-		componentes = []
 		
-		for vertice in range(0,len(grafo)):
-			articulacao = self.articulation(grafo, vertice, componentes)
+		for vertice in range(len(grafo)):
+			articulacao = self.articulation(grafo, vertice)
 			lista_articulacao.append(articulacao)
+		
 		return list(lista_articulacao)
 
 grafo_A = [
