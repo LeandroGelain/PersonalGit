@@ -4,7 +4,7 @@ class buscar(object):
 
 	def por_profundidade(self, grafo, vertice, visitados):
 			if vertice in visitados:
-				return False
+    				return False
 			visitados.append(vertice)
 			for vizinho in grafo[vertice]['adjacentes']:
 				if vizinho not in visitados:
