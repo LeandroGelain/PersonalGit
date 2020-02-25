@@ -13,10 +13,12 @@ class InstagramBot(object):
 		print("========= inicializing bot ==========")
 		self.username = username
 		self.password = password
+		mobile_emulation = { "deviceName": "Nexus 5" }
 		self.conn , self.mydb = mongoConnect.connect()
 		self.options = webdriver.ChromeOptions()
 		self.options.add_argument('--profile-directory=Default')
 		self.options.add_argument('--user-data-dir=./User_Data')
+		self.options.add_experimental_option("mobileEmulation", mobile_emulation)
 		self.options.add_argument("--window-size=1920x1080")
 		# self.options.add_argument("--headless")
 		self.driver = webdriver.Chrome(chrome_options=self.options)
@@ -66,3 +68,41 @@ class InstagramBot(object):
 				print("duplicate key error")
 		
 		print( "=========================================" )
+
+	def SearchPeopleByPostLink(self, link):
+		self.driver.get(link)
+		self.driver.find_element_by_class_name('zV_Nj').click()
+		time.sleep(.4)
+		currentScrollCheck = 0
+		i=1
+		while True:
+			self.driver.execute_script(f"window.scrollTo(0,{i*1000})")
+			i+=1
+			currentScroll = (self.driver.execute_script("return window.pageYOffset"))
+			time.sleep(.5)
+			if currentScroll != currentScrollCheck:
+				currentScrollCheck = currentScroll
+			else:
+				break
+
+		profileElements = self.driver.find_elements_by_tag_name("a")
+		exceptionsLinks = ["https://www.instagram.com/","https://www.instagram.com/explore/","https://www.instagram.com/accounts/activity/","https://www.instagram.com/evolui_mtk/"]
+		links = []
+		for i in profileElements:
+			link = (i.get_attribute("href"))
+			if not link in exceptionsLinks:
+				links.append(link)
+		current_day = date.today().strftime("%d/%m/%Y")	
+		for link in links:	
+			try:
+				self.mydb.usersInstagram.insert_one({
+					"_id":str(link),
+					"enviadoFollow":True,
+					"followBack":False,
+					"canceledFollow":False,
+					"currentDate":str(current_day)
+				})
+			except pymongo.errors.DuplicateKeyError:
+				print("duplicate key error")
+		print(len(profileElements))
+
