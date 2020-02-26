@@ -1,4 +1,4 @@
 /instaBot/__pycache__
 /instaBot/chromedriver
 /instaBot/User_Data/
-\instaBot\.env
+/instaBot/.env
