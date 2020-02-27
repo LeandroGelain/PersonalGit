@@ -11,6 +11,8 @@ if __name__ == "__main__":
 	pwdInsta = os.getenv("PASSWORD_INSTAGRAM")
 	bot = InstagramBot(userInsta, pwdInsta)
 	conn, mydb = connect()
+
+	# =============================================================================
 	"""
 	Buscar post por hashtag
 	"""
@@ -19,7 +21,9 @@ if __name__ == "__main__":
 	# 	for getHashTags in data["data"][0]["empreendedorismo"]:
 	# 		searchHashtag = (getHashTags["hashtag"]).replace("#","")
 	# 		bot.findPostByhashtag(searchHashtag)
-
+	# =============================================================================
+	
+	# =============================================================================
 	"""
 	Buscar pessoas que curtiram o post
 	"""
@@ -32,5 +36,6 @@ if __name__ == "__main__":
 		except KeyError:
 			bot.SearchPeopleByPostLink(linksPost["_id"], linksPost["hashTag"])
 			mydb.postsLinks.find_one_and_update({"_id":linksPost["_id"]}, {"$set" :{"LinkPerfisPego":True}})
+	# =============================================================================
 		
 	bot.driver.close()

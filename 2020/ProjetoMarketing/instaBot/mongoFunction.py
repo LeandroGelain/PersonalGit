@@ -1,16 +1,22 @@
 from mongoConnect import connect
-
+from outherFunctions import remove_repetidos
 conn, mydb = connect()
 
-# for docs in mydb.usersInstagram.find():
-#     mydb.usersInstagram.find_one_and_update
-#     print(docs)
+def update_many_teste():
+    x = mydb.usersInstagram.update_many(
+            {'enviadoFollow': True}, {"$set":{'enviadoFollow': False}}
+        )
+    print(x)
 
-x = mydb.usersInstagram.update_many(
-        {'enviadoFollow': True}, {"$set":{'enviadoFollow': False}}
-    )
-print(x)
-# myquery = { "address": { "$regex": "^S" } }
-# newvalues = { "$set": { "enviadoFollow": False } }
-
-# x = mycol.update_many(myquery, newvalues)
+def insert_many_test():
+    # x = mydb.testeInsertMany.insert_many(
+    lista = [
+        {"_id":1, "nome":"Jão testando"},
+        {"_id":2, "nome":"Jão testando"},
+        {"_id":2, "nome":"Jão testando"},
+        {"_id":2, "nome":"Jão testando"},
+        {"_id":4, "nome":"Jão testando"}
+    ]
+    lista2 = remove_repetidos(lista)
+    print(lista2)
+insert_many_test()
