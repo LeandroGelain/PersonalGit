@@ -1,7 +1,7 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
-from outherFunctions import remove_repetidos
+from outherFunctions import remove_repetidos, detectarLinguagem
 from selenium import webdriver
 from datetime import date
 import mongoConnect
@@ -10,7 +10,7 @@ import time
 
 class InstagramBot(object):
 
-	def __init__(self, username, password):
+	def __init__(self, username, password, userDataNum=None):
 		print("========= inicializing bot ==========")
 		self.username = username
 		self.password = password
@@ -18,9 +18,12 @@ class InstagramBot(object):
 		self.conn , self.mydb = mongoConnect.connect()
 		self.options = webdriver.ChromeOptions()
 		self.options.add_argument('--profile-directory=Default')
-		self.options.add_argument('--user-data-dir=./User_Data')
+		if not userDataNum == None:
+			self.options.add_argument(f'--user-data-dir=./User_Data{userDataNum}')
+		else:
+			self.options.add_argument(f'--user-data-dir=./User_Data')
 		self.options.add_experimental_option("mobileEmulation", mobile_emulation)
-		self.options.add_argument("--window-size=1920x1080")
+		# self.options.add_argument("--window-size=1920x1080")
 		# self.options.add_argument("--headless")
 		self.driver = webdriver.Chrome(chrome_options=self.options)
 		# self.driver.maximize_window()
@@ -50,7 +53,6 @@ class InstagramBot(object):
 		except NoSuchElementException:
 			pass
 		current_day = date.today().strftime("%d/%m/%Y")			
-		
 		print( f"=============  {hashtag}  ==============" )
 		for element in self.elementList:
 			try:
@@ -62,7 +64,6 @@ class InstagramBot(object):
 				print(element)
 			except pymongo.errors.DuplicateKeyError:
 				print("duplicate key error")
-		
 		print( "=========================================" )
 
 	def SearchPeopleByPostLink(self, linkPost, hashtagPost):
@@ -70,7 +71,10 @@ class InstagramBot(object):
 		time.sleep(2)
 		self.driver.execute_script("window.scrollTo(0,300)")
 		time.sleep(2)
-		self.driver.find_element_by_css_selector('#react-root > section > main > div > div > article > div.eo2As > section.EDfFK.ygqzn > div > div.Nm9Fw > a.zV_Nj').click()
+		try:
+			self.driver.find_element_by_css_selector('#react-root > section > main > div > div > article > div.eo2As > section.EDfFK.ygqzn > div > div.Nm9Fw > a.zV_Nj').click()
+		except NoSuchElementException:
+			self.mydb.postsLinks.find_one_and_update({"_id":linkPost}, {"$set" :{"LinkPerfisPego":True, "PaginaExiste":False}})
 		time.sleep(10)
 		currentScrollCheck = 0
 		i=1
@@ -83,7 +87,6 @@ class InstagramBot(object):
 				currentScrollCheck = currentScroll
 			else:
 				break
-
 		profileElements = self.driver.find_elements_by_tag_name("a")
 		exceptionsLinks = ["https://www.instagram.com/","https://www.instagram.com/explore/","https://www.instagram.com/accounts/activity/","https://www.instagram.com/evolui_mtk/"]
 		links = []
@@ -92,9 +95,7 @@ class InstagramBot(object):
 			if not link in exceptionsLinks:
 				links.append(link)
 		current_day = date.today().strftime("%d/%m/%Y")	
-		
 		docsInsert = []
-
 		for linkProfile in links:
 				docsInsert.append({
 					"_id":str(linkProfile),
@@ -116,7 +117,19 @@ class InstagramBot(object):
 				count+=1
 				print(f"{count}/{len(docsInsert_filtrada)} Duplicated key error")
 
-
 	def classifyLanguageProfile(self, profileLink):
 		self.driver.get(profileLink)
-		bio = self.driver.find_element_by_css_selector("#react-root > section > main > div > header > section > div.-vDIg > span").text()
+		time.sleep(.5)
+		try: 
+			bio = self.driver.find_element_by_css_selector("#react-root > section > main > div > div.-vDIg > span")
+			linguagem = detectarLinguagem(bio.text)
+			return ({"lang":linguagem ,"bio":bio.text, "NotFound":False})
+		except NoSuchElementException:
+			try:
+				time.sleep(.5)
+				self.driver.find_element_by_css_selector("#react-root > section > main > div > header > section")
+				{"lang":None ,"bio":None, "NotFound":False}
+			except:
+				return ({"lang":None ,"bio":None, "NotFound":False})
+
+		

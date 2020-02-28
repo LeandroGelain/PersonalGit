@@ -2,114 +2,144 @@
     {
         "empreendedorismo" : [
             {
-                "hashtag":"#business"
+                "hashtag":"#business",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#productivity"
+                "hashtag":"#productivity",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#sales"
+                "hashtag":"#sales",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#smallbusiness"
+                "hashtag":"#smallbusiness",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#startup"
+                "hashtag":"#startup",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#success"
+                "hashtag":"#success",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#website"
+                "hashtag":"#website",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#empreendedorismo"
+                "hashtag":"#empreendedorismo",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#produtividade"
+                "hashtag":"#produtividade",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
-                "hashtag":"#growth"
+                "hashtag":"#growth",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresvenezolanos",
-                "publicacoes":"188,212"
+                "publicacoes":"188,212",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresunidos",
-                "publicacoes":"97,711"
+                "publicacoes":"97,711",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresonline",
-                "publicacoes":"88,947"
+                "publicacoes":"88,947",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresdelexito",
-                "publicacoes":"40,451"
+                "publicacoes":"40,451",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoreschile",
-                    "publicacoes":"30,673"
-                },
+                "publicacoes":"30,673",
+                "StatusPrimario":"LinksPopularesPego"
+            },
             {
                 "hashtag":"#emprendedoresexitosos",
-                "publicacoes":"29,437"
+                "publicacoes":"29,437",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresargentinos",
-                "publicacoes":"29,115"
+                "publicacoes":"29,115",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresdigitales",
-                "publicacoes":"26,096"
+                "publicacoes":"26,096",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedorescolombianos",
-                "publicacoes":"24,037"
+                "publicacoes":"24,037",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedorespanama",
-                "publicacoes":"21,642"
+                "publicacoes":"21,642",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresmexicanos",
-                "publicacoes":"20,992"
+                "publicacoes":"20,992",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresenchile",
-                "publicacoes":"20,070"
+                "publicacoes":"20,070",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresvenezuela",
-                "publicacoes":"19,815"
+                "publicacoes":"19,815",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresycreativos",
-                "publicacoes":"19,023"
+                "publicacoes":"19,023",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoreslatinos",
-                "publicacoes":"17,981"
+                "publicacoes":"17,981",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoressv",
-                "publicacoes":"15,565"
+                "publicacoes":"15,565",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoreschilenos",
-                "publicacoes":"13,631"
+                "publicacoes":"13,631",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresrd",
-                "publicacoes":"13,464"
+                "publicacoes":"13,464",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresecuador",
-                "publicacoes":"11,742"
+                "publicacoes":"11,742",
+                "StatusPrimario":"LinksPopularesPego"
             },
             {
                 "hashtag":"#emprendedoresmillonarios",
-                "publicacoes":"11,538"
+                "publicacoes":"11,538",
+                "StatusPrimario":"LinksPopularesPego"
             }
         ]
     },

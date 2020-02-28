@@ -9,7 +9,8 @@ if __name__ == "__main__":
 	load_dotenv()
 	userInsta = os.getenv("USER_INSTAGRAM")
 	pwdInsta = os.getenv("PASSWORD_INSTAGRAM")
-	bot = InstagramBot(userInsta, pwdInsta)
+	bot = InstagramBot(userInsta, pwdInsta, 1)
+	bot.login()
 	conn, mydb = connect()
 
 	# =============================================================================
